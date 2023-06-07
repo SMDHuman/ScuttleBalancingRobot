@@ -59,39 +59,37 @@ class Controller():
     def gamepadLoop(self):
         for event in self.gamepad.async_read_loop():
             if(event.type == 1):
-                match event.code:
-                    case Code.a:
+                if(event.code == Code.a):
                         self.a = event.value
-                    case Code.b:
+                if(event.code == Code.b):
                         self.b = event.value
-                    case Code.x:
+                if(event.code == Code.x):
                         self.x = event.value
-                    case Code.y:
+                if(event.code == Code.y):
                         self.y = event.value
-                    case Code.start:
+                if(event.code == Code.start):
                         self.start = event.value
-                    case Code.back:
+                if(event.code == Code.back):
                         self.back = event.value
-                    case Code.rb:
+                if(event.code == Code.rb):
                         self.rb = event.value
-                    case Code.rt:
+                if(event.code == Code.rt):
                         self.rt = event.value
-                    case Code.lb:
+                if(event.code == Code.lb):
                         self.lb = event.value
-                    case Code.lt:
+                if(event.code == Code.lt):
                         self.lt = event.value
             if(event.type == 3):
-                match event.code:
-                    case Code.rightJoyX:
+                if(event.code == Code.rightJoyX):
                         self.rightJoyX = event.value
-                    case Code.rightJoyY:
+                if(event.code == Code.rightJoyY):
                         self.rightJoyY = event.value
-                    case Code.leftJoyX:
+                if(event.code == Code.leftJoyX):
                         self.leftJoyX = event.value
-                    case Code.leftJoyY:
+                if(event.code == Code.leftJoyY):
                         self.leftJoyY = event.value
                     
-                    case Code.Xdpad:
+                if(event.code == Code.Xdpad):
                         if(event.value == 1):
                             self.right = 1
                         elif(event.value == -1):
@@ -99,7 +97,7 @@ class Controller():
                         else:
                             self.right = 0
                             self.left = 0
-                    case Code.Ydpad:
+                if(event.code == Code.Ydpad):
                         if(event.value == -1):
                             self.up = 1
                         elif(event.value == 1):

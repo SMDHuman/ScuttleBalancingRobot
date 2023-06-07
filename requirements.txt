@@ -1,1 +1,4 @@
-setuptools==67.8.0
+RPi.GPIO==0.7.1
+evdev==1.6.1
+mpu6050-raspberrypi==1.2
+smbus==1.1.post2
