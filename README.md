@@ -21,19 +21,19 @@ First of all you need the robot it self to install and run the programs. If you 
 If you don't have the robot, then you can obtain all the parts from [Scuttle Shop](https://www.scuttlerobot.org/shop/) or in your local shops. You can look the parts and specification of those parts from this [PDF](https://github.com/SMDHuman/ScuttleBalancingRobot/blob/main/docs/Item%20Links%2020230606.pdf) or in that [Link](https://www.scuttlerobot.org/resources/). You will find lots of documentation about Scuttle robot in this link too.
 
 ## Wiring of Necessary Components
-You have to wire all electrical components each other that are in use of our project. We need 
-* Batteries to Regulator
-* Batteries to Motor driver
-* Regulator to Raspberry Pi
-* Raspberry Pi to Motor Drivers
-* Motor Driver to DC Motors
-* MPU6050 to Raspberry Pi
+You have to wire all electrical components to each other thats are in use of our project. We need to wire
+* Batteries to Regulator,
+* Batteries to Motor driver,
+* Regulator to Raspberry Pi,
+* Raspberry Pi to Motor Drivers,
+* Motor Driver to DC Motors,
+* MPU6050 to Raspberry Pi.
 
-You can check out how to connects of all parts and more from this [Link](https://www.scuttlerobot.org/resource/guide/wiring-guide/) except MPU6050. MPU6050 needs to connect to Raspberry Pi as the picture under this text shown.
+You can check out the connections of all parts and more from this [Link](https://www.scuttlerobot.org/resource/guide/wiring-guide/) except MPU6050. MPU6050 needs to connect to Raspberry Pi as the picture under this text shows.
 
 <img src="https://github.com/SMDHuman/ScuttleBalancingRobot/blob/main/images/Raspbery%20Pi%20to%20MPU6050.jpeg"  width="300">
 
-If you can't see the picture here is a table of the wiring under here.
+If you can't see the picture, here is a table of the wiring of the pins between MPU6050 and Raspberry Pi.
 | MPU6050 | Raspberry Pi |
 |---------|--------------|
 | VCC     | 3.3V         |
