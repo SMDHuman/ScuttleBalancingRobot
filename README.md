@@ -1,4 +1,4 @@
-	# Scuttle Self-Balance robot
+# Scuttle Self-Balance robot
 This project of mine was made with the support of [SCUTTLE™](https://www.scuttlerobot.org/). 
 
 ## About The Project
