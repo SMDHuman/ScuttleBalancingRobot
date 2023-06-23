@@ -5,7 +5,9 @@ This project of mine was built with the support of [SCUTTLE™](https://www.scut
 ## About The Project
 
 This project's subject is to make SCUTTLE Robot balance itself on its two wheels only modifying its default shape and use external MPU6050 sensor in addition. Main idea of this project comes from David Malawey who is Founder of The Scuttle™ and I am glad to bring this idea to reality. Before working on this project i had one project similar to this and it's called [LOTP_BalanceWheel](https://github.com/SMDHuman/BalanceWheel) and its purpose is to make a 3D printed frame, stepper motor driven and Raspberry Pi Pico based two wheels self-balancing robot.
-However I have built a two wheels self-balancing robot before, there were a few challenges on this project which I enjoyed a lot. Scuttle Robot has already a predefined setup and I was limited to transform current model in a most easiest and efficient way. Also Scuttle Robot is driven by DC motors which brings additional control settings and movement features for me. Also a new part was designed and printed for this project to be able to hold MPU6050 sensor on the chassis.
+
+However I have built a two wheels self-balancing robot before, there were a few challenges on this project which I enjoyed a lot. Scuttle Robot has already a predefined setup and I was limited to transform current model in a most easiest and efficient way. Also a new part was designed and printed for this project to be able to hold MPU6050 sensor on the chassis.
+
 Final result is a milestone and an evolutionary progress at SCUTTLE development for all community.
 SCUTTLE Robot is designed very efficiently and maker friendly.  Standard form is a very good start for different purpose designs. It may be adapted for various potential tasks. There are still many challenges hidden at SCUTTLE Robot for curious makers. This project is a very good sample of that. I hope you enjoy while you are building your own.
 
@@ -31,12 +33,12 @@ If you don't have the robot, then you can obtain all the parts from [Scuttle Sho
 ## Wiring of Necessary Components
 
 You have to wire all electrical components to each other that are in use of our project. We need to wire
-•	Batteries to Regulator,
-•	Batteries to Motor driver,
-•	Regulator to Raspberry Pi,
-•	Raspberry Pi to Motor Drivers,
-•	Motor Driver to DC Motors,
-•	MPU6050 to Raspberry Pi.
+*	Batteries to Regulator,
+*	Batteries to Motor driver,
+*	Regulator to Raspberry Pi,
+*	Raspberry Pi to Motor Drivers,
+*	Motor Driver to DC Motors,
+*	MPU6050 to Raspberry Pi.
 
 You can check out the connections of all parts and more from this Link except MPU6050. MPU6050 needs to connect to Raspberry Pi as the picture shows under below.
 
