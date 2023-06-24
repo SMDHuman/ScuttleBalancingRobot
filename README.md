@@ -26,7 +26,7 @@ With all of those you can easily remake or iterate on top of it.
 
 # Getting Started
 
-First of all you need the robot itself to install and run the programs. If you have one, then you are lucky! You just need to transform the shape of the robot and attach external MPU6050 sensor and a 3D print part to mount it. You can start this process by looking up my step by step [YouTube](https://youtu.be/XI1HBQYeNek) guide with English subtitle or check out the [PDF](https://github.com/SMDHuman/ScuttleBalancingRobot/blob/main/docs/Self%20Balanced%20Robot%20Transformation.pdf) of the transformation of the robot from base model to self-balancing configuration.
+First of all you need the robot itself to install and run the programs. If you have one, then you are lucky! You just need to transform the shape of the robot and attach external MPU6050 sensor and a [3D print part](https://github.com/SMDHuman/ScuttleBalancingRobot/tree/main/3D%20Models) to mount it. You can start this process by looking up my step by step [YouTube](https://youtu.be/XI1HBQYeNek) guide with English subtitle or check out the [PDF](https://github.com/SMDHuman/ScuttleBalancingRobot/blob/main/docs/Self%20Balanced%20Robot%20Transformation.pdf) of the transformation of the robot from base model to self-balancing configuration.
 
 If you don't have the robot, then you can obtain all the parts from [Scuttle Shop](https://www.scuttlerobot.org/shop/) or from your local shops. You can look the parts and specification of those parts from this [PDF](https://github.com/SMDHuman/ScuttleBalancingRobot/blob/main/docs/Item%20Links%2020230606.pdf) or in that [Link](https://www.scuttlerobot.org/resources/). You will find lots of documentation about SCUTTLE Robot in this link too.
 
