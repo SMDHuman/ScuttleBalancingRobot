@@ -53,5 +53,5 @@ If you can't see the picture, here is a table of the wiring of the pins between 
 | SCL     | GPIO 3       |
 | SDA     | GPIO 2       |
 
-## Instillation 
-WIP...
+## Installation 
+You can follow the step by step guide from [this document](https://github.com/SMDHuman/ScuttleBalancingRobot/blob/main/docs/Software%20Installation%20Guide%20v1.pdf) prepeared for installation of OS and running the python code for self balancing scuttle robot. 
