@@ -44,7 +44,7 @@ You can check out the connections of all parts and more from this Link except MP
 
 <img src="https://github.com/SMDHuman/ScuttleBalancingRobot/blob/main/images/Raspbery%20Pi%20to%20MPU6050.jpeg"  width="300">
 
-If you can't see the picture, here is a table of the wiring of the pins between MPU6050 and Raspberry Pi.
+If you can't see the picture, here is a table of the wiring of the pins between MPU6050 and Raspberry Pi. You may also access the diagram designed on [Draw.io](https://drive.google.com/file/d/1K8wL2eJak03yuCxYKJeCcMRbwO4yd8io/view?usp=sharing)
 
 | MPU6050 | Raspberry Pi |
 |---------|--------------|
