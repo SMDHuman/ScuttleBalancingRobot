@@ -42,7 +42,14 @@ You have to wire all electrical components to each other that are in use of our 
 
 You can check out the connections of all parts and more from this Link except MPU6050. MPU6050 needs to connect to Raspberry Pi as the picture shows under below.
 
+Direct Connections with Raspberry Pi and MPU6050
+
 <img src="https://github.com/SMDHuman/ScuttleBalancingRobot/blob/main/images/Raspbery%20Pi%20to%20MPU6050.jpeg"  width="300">
+
+Connection Via I2C Breakout Board
+
+<img src="https://github.com/SMDHuman/ScuttleBalancingRobot/blob/main/images/Connection%20Via%20I2C%20Breakout%20Board.jpg"  width="500">
+
 
 If you can't see the picture, here is a table of the wiring of the pins between MPU6050 and Raspberry Pi. You may also access the diagram designed on [Draw.io](https://drive.google.com/file/d/1K8wL2eJak03yuCxYKJeCcMRbwO4yd8io/view?usp=sharing)
 
